@@ -1,0 +1,10 @@
+/* CSS Document */
+
+table thead td{
+		font-weight:bold;
+		cursor:pointer;
+	}
+	/* If you wish to highlight current sortable column, add layout effects below */
+	.highlightedColumn{
+    background-color:#CCC;
+	}	

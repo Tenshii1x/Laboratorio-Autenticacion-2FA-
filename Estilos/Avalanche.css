@@ -1,0 +1,455 @@
+
+.bodyline {
+	 align:center; background:#FFFFFF;
+}
+#contenedor{
+	width:700px;
+	margin:auto;
+	margin-top:20px;
+	border:2px solid #C0C0C0;
+	background-color:#F2F2F2;
+	padding-bottom:20px;
+	
+}
+.forumline {
+	 BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; BORDER-LEFT: #ffffff 0px solid; BORDER-BOTTOM: #ffffff 1px solid; 
+}
+forumline input{
+	border:1px solid #CCCCCC;
+	padding:3px;
+}
+TD.row1 {
+	FONT-SIZE: 14px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	PADDING-TOP: 5px; 
+	PADDING-RIGHT: 5px; 
+	PADDING-LEFT: 5px; 
+	PADDING-BOTTOM: 5px; 
+	BORDER-TOP: #fff 1px solid; 
+	BORDER-LEFT: #fff 1px solid; 
+	BORDER-BOTTOM: #fff 1px solid; 
+	BORDER-RIGHT: #fff 0px solid; 
+
+	BACKGROUND-COLOR: #F2F2F2
+}
+TD.row2 {
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	BORDER-RIGHT: #fff 0px solid; 
+	PADDING-RIGHT: 5px; 
+	BORDER-TOP: #fff 1px solid; 
+	PADDING-LEFT: 20px; 
+	PADDING-BOTTOM: 5px; 
+	BORDER-LEFT: #fff 1px solid; 
+	PADDING-TOP: 5px; 
+	BORDER-BOTTOM: #fff 0px solid; 
+	BACKGROUND-COLOR: #F2F2F2
+}
+TD.row3 {
+	BORDER-RIGHT: #fff 0px solid; PADDING-RIGHT: 5px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #fff 0px solid; BACKGROUND-COLOR: #bacee2
+}
+
+TD.row4 {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BORDER-RIGHT: #fff 0px solid; PADDING-RIGHT: 5px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 20px; PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #fff 0px solid; BACKGROUND-COLOR: #00ffff
+}
+TD.row5 {
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	 
+	BORDER-RIGHT: #fff 0px solid; PADDING-RIGHT: 5px; 
+	BORDER-TOP: #fff 1px solid; PADDING-LEFT: 20px; 
+	BORDER-BOTTOM: #fff 0px solid;
+	 
+	PADDING-BOTTOM: 5px; BORDER-LEFT: #fff 1px solid; 
+	PADDING-TOP: 5px; 
+
+	BACKGROUND-COLOR: #ccdbea
+
+}
+
+TD.cat {
+	BORDER-RIGHT: #ffffff 0px solid; 
+	PADDING-RIGHT: 5px; 
+	PADDING-LEFT: 5px; 
+	BORDER-TOP: #ffffff 1px solid; 
+	BORDER-LEFT: #ffffff 1px solid; 
+	BORDER-BOTTOM: #999999 1px solid; 
+	HEIGHT: 24px; 
+	BACKGROUND-COLOR: #CDCDCD; 
+	color:#000000
+}
+TD.cat1{
+	BORDER-RIGHT: #ffffff 0px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 5px; BORDER-LEFT: #ffffff 0px solid; BORDER-BOTTOM: #ffffff 0px solid; HEIGHT: 15px; BACKGROUND-COLOR: #adc7e1
+}
+SELECT.post {
+	BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; FONT: 12px Verdana, Arial, Helvetica, sans-serif; COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000;
+		BORDER-RIGHT: #6699cc 1px solid; BORDER-TOP: #6699cc 1px solid; BORDER-LEFT: #6699cc 1px solid; COLOR: #4583c0; BORDER-BOTTOM: #6699cc 1px solid; BACKGROUND-COLOR: #eff4f9
+
+}
+INPUT.post {
+		BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; FONT: 12px Verdana, Arial, Helvetica, sans-serif; COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000;
+BORDER-RIGHT: #6699cc 1px solid; BORDER-TOP: #6699cc 1px solid; BORDER-LEFT: #6699cc 1px solid; COLOR: #4583c0; BORDER-BOTTOM: #6699cc 1px solid; BACKGROUND-COLOR: #000000; font-size:14px; background-color:#000000;
+TEXT-INDENT: 2px
+}
+INPUT.horario {
+		BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; FONT: 10px Verdana, Arial, Helvetica, sans-serif; COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000;
+BORDER-RIGHT: #6699cc 1px solid; BORDER-TOP: #6699cc 1px solid; BORDER-LEFT: #6699cc 1px solid; COLOR: #4583c0; BORDER-BOTTOM: #6699cc 1px solid; BACKGROUND-COLOR: #ffffff;
+TEXT-INDENT: 2px
+}
+TEXTAREA.post {
+	BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; FONT: 10px Verdana, Arial, Helvetica, sans-serif; COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000;
+	BORDER-RIGHT: #6699cc 1px solid; BORDER-TOP: #6699cc 1px solid; BORDER-LEFT: #6699cc 1px solid; COLOR: #4583c0; BORDER-BOTTOM: #6699cc 1px solid; BACKGROUND-COLOR: #eff4f9
+}
+
+INPUT.button2 {
+	BORDER-RIGHT: #eff4f9 1px solid; BORDER-TOP: #eff4f9 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #eff4f9 1px solid; COLOR: #eff4f9; BORDER-BOTTOM: #eff4f9 1px solid; BACKGROUND-COLOR: #000000
+}
+
+INPUT.button2 {
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #eff4f9 1px solid; 
+	BORDER-BOTTOM: #eff4f9 1px solid; 
+	BORDER-LEFT: #eff4f9 1px solid;
+	FONT-SIZE: 14px; 
+	COLOR: #FFFFFF; 
+	BACKGROUND-COLOR: #000000;
+}
+/*/Se esta usando para el formulrio cliente logistica*/
+INPUT.cliente {
+	border:1px solid #CCCCCC;
+	padding:3px;	
+	FONT-SIZE: 12px; 
+	BORDER-LEFT: #eff4f9 1px solid; 
+	COLOR: #000000;
+	BORDER-BOTTOM: #eff4f9 1px solid; 
+	BACKGROUND-COLOR: #FFFFFF;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;	
+	width:400px;
+
+	}
+	
+TEXTAREA.AREA {
+	border:1px solid #CCCCCC;
+	padding:3px;	
+	FONT-SIZE: 12px; 
+	BORDER-LEFT: #eff4f9 1px solid; 
+	COLOR: #000000;
+	BORDER-BOTTOM: #eff4f9 1px solid; 
+	BACKGROUND-COLOR: #FFFFFF;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;	
+	width:400px;
+
+	}
+
+INPUT.mainoption {
+	FONT-SIZE: 10px; 
+	BORDER-LEFT: #eff4f9 1px solid; 
+	COLOR: #eff4f9; 
+	BORDER-BOTTOM: #eff4f9 1px solid; 
+	BACKGROUND-COLOR: #6699cc
+}
+INPUT.mainoption {
+	BORDER-RIGHT: #eff4f9 1px solid; BORDER-TOP: #eff4f9 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #eff4f9 1px solid; COLOR: #6699cc; BORDER-BOTTOM: #eff4f9 1px solid; BACKGROUND-COLOR: #ffffff
+}
+
+
+.gen {
+	FONT-SIZE: 12px; COLOR: #000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	
+}
+.genCentro {
+	FONT-SIZE: 12px; COLOR: #000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	text-align: center;
+}
+.gen1 {
+	FONT-SIZE: 14px; COLOR: #000; FONT-FAMILY: "Trebuchet MS", Tahoma,Verdana, sans-serif;
+}
+.genmed {
+	FONT-SIZE: 11px
+}
+.gensmall {
+	FONT-SIZE: 10px
+}
+.genmed {
+	COLOR: #000000
+}
+.gensmall {
+	COLOR: #000000
+}
+
+A.genCal {
+	FONT-SIZE: 12px; 
+	COLOR: #000; 
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+	COLOR: #000000; 
+	TEXT-DECORATION: none
+}<!--- fin de la clase genCal !-->
+
+A.gen {
+	COLOR: #4583c0; TEXT-DECORATION: none
+}
+A.genmed {
+	COLOR: #4583c0; TEXT-DECORATION: none
+}
+A.gensmall {
+	COLOR: #4583c0; TEXT-DECORATION: none
+}
+A.gen:hover {
+	COLOR: #f3a625; TEXT-DECORATION: underline
+}
+A.genmed:hover {
+	COLOR: #f3a625; TEXT-DECORATION: underline
+}
+A.gensmall:hover {
+	COLOR: #f3a625; TEXT-DECORATION: underline
+}
+.cattitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+A.cattitle {
+	TEXT-DECORATION: none
+}
+A.cat {
+	TEXT-DECORATION: none
+}
+A.cattitle:hover {
+	TEXT-DECORATION: underline
+}
+.forumlink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+A.forumlink {
+	TEXT-DECORATION: none
+}
+A.forumlink:visited {
+	TEXT-DECORATION: none
+}
+
+
+<!--pertenecen al script print.css para verificar errores !-->
+TH.Titulos {
+	FONT-WEIGHT: bold;
+	COLOR: #ffffff;
+	background-color: #b4e0e8;
+	background-repeat: repeat-x;
+	background-position: 6477;
+	FONT-SIZE: 12px; 
+	FONT-FAMILY: "Trebuchet MS", Tahoma,Verdana, sans-serif
+}
+TH A.Titulos:link {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+TH A.Titulos:active {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+TH A.Titulos:visited {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+TH A.Titulos:hover {
+	COLOR: #F5F8FE; TEXT-DECORATION: none
+}
+
+.Titulos {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0.1em; MARGIN: 0.1em; VERTICAL-ALIGN: top; PADDING-TOP: 0.1em;
+	
+}
+.Encabezados {
+	BACKGROUND: #A6BBCA;FONT-SIZE: 12px; FONT-FAMILY: "Trebuchet MS", Tahoma,Verdana, sans-serif;
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0.1em; MARGIN: 0.1em; VERTICAL-ALIGN: top; PADDING-TOP: 0.1em
+}
+
+
+.even {
+	BACKGROUND: #F5F8FE;FONT-SIZE: 12px; FONT-FAMILY: "Trebuchet MS", Tahoma,Verdana, sans-serif;
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; PADDING-BOTTOM: 0.1em; MARGIN: 0.1em; VERTICAL-ALIGN: top; PADDING-TOP: 0.1em;
+
+}
+
+.odd {
+	BACKGROUND: #D6DFF7;
+	FONT-SIZE: 12px; 
+	FONT-FAMILY: "Trebuchet MS", Tahoma,Verdana, sans-serif;
+	PADDING-RIGHT: 0.5em; 
+	PADDING-LEFT: 0.5em; 
+	PADDING-BOTTOM: 0.1em; 
+	MARGIN: 0.1em; 
+	VERTICAL-ALIGN: center; 
+	PADDING-TOP: 0.1em
+}
+
+/*TABLE TR.odd TH {
+	BACKGROUND: #e5e5e5; TEXT-ALIGN: left
+}*/
+
+.TABLE {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align: right;
+/*width: 400px;*/	
+}
+
+.TABLE th {
+padding: 5px;
+font-size: 16px;
+background-color: #8ed7d1;
+/* background-image: url(img/fondo1.png); */
+/*background-repeat: repeat-x;*/
+color: #34484E;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #34484E;
+border-bottom-color: #34484E;
+
+border-top-width: 1px;
+border-left-width: 1px;
+
+
+border-top-style: solid;
+border-left-style: solid;
+
+
+border-top-color: #A4C4D0;
+border-left-color: #A4C4D0;
+
+font-family: "Trebuchet MS", Arial;
+text-transform: uppercase;
+
+}
+
+
+.Primerafila {
+	BACKGROUND: #D6DFF7;
+	FONT-SIZE: 10px; 
+	FONT-WEIGHT:bold;
+	FONT-FAMILY: "Trebuchet MS", Tahoma,Verdana, sans-serif;
+	
+}
+
+
+TABLE TH.Primerafila  {
+	BACKGROUND: #e5e5e5; 
+	TEXT-ALIGN: center;
+	BACKGROUND-COLOR: #000;
+	
+	BORDER-RIGHT: #000 0px solid; 
+	BORDER-TOP: #000 0px solid;
+	BORDER-LEFT: #000 0px solid;
+	BORDER-BOTTOM: #000 0px solid; 
+	
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 0px; 
+	PADDING-TOP: 0px;
+	
+	FONT-SIZE: 12px; 
+	FONT-FAMILY: "Trebuchet MS", Tahoma,Verdana, sans-serif;
+	MARGIN: 0.1em; 
+	VERTICAL-ALIGN: top; 
+	
+}
+
+
+TABLE TR.odd {
+	BACKGROUND-COLOR: #DAECF4;
+	TEXT-ALIGN: left;
+	BORDER-RIGHT: #fff 0px solid; 
+	PADDING-RIGHT: 5px; 
+	BORDER-TOP: #fff 1px solid;
+	PADDING-LEFT: 5px; 
+	PADDING-BOTTOM: 5px; 
+	BORDER-LEFT: #fff 1px solid;
+	PADDING-TOP: 5px; 
+	BORDER-BOTTOM: #fff 0px solid; 
+}
+
+
+.fila {
+	BACKGROUND: #D6DFF7;
+	FONT-SIZE: 10px; 
+	FONT-FAMILY: "Trebuchet MS", Tahoma,Verdana, sans-serif;
+	
+}
+
+TABLE TR.fila TH {
+	BACKGROUND: #e5e5e5; 
+	TEXT-ALIGN: center;
+	BACKGROUND-COLOR: #000;
+	
+	BORDER-RIGHT: #000 0px solid; 
+	BORDER-TOP: #000 0px solid;
+	BORDER-LEFT: #000 0px solid;
+	BORDER-BOTTOM: #000 0px solid; 
+	
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 0px; 
+	PADDING-TOP: 0px;
+	
+	FONT-SIZE: 12px; 
+	FONT-FAMILY: "Trebuchet MS", Tahoma,Verdana, sans-serif;
+	MARGIN: 0.1em; 
+	VERTICAL-ALIGN: top; 
+	
+}
+
+TABLE TR.fila {
+	BACKGROUND-COLOR: #DAECF4; 
+	TEXT-ALIGN: center;
+	BORDER-RIGHT: #fff 0px solid; 
+	PADDING-RIGHT: 2px; BORDER-TOP: #fff 1px solid;
+	PADDING-LEFT: 2px; 
+	PADDING-BOTTOM: 2px; 
+	BORDER-LEFT: #fff 1px solid;
+	PADDING-TOP:2px;
+	BORDER-BOTTOM: #fff 0px solid; 
+}
+
+
+TABLE TR.even TH {
+	BACKGROUND: #d5d5d5; TEXT-ALIGN: left
+}
+TABLE TR.even {
+		BORDER-RIGHT: #ffffff 3px solid; PADDING-RIGHT: 5px; TEXT-ALIGN: left;
+		BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 5px; BORDER-LEFT: #ffffff 0px solid; 
+		BORDER-BOTTOM: #ffffff 3px solid; HEIGHT: 24px; BACKGROUND-COLOR: #E1F3FB
+
+}
+.odd:hover {
+	BACKGROUND: #ccffcc; COLOR: #000000
+}
+.even:hover {
+	BACKGROUND: #ccffcc; COLOR: #000000
+}
+.hover {
+	BACKGROUND: #ccffcc; COLOR: #000000;FONT-SIZE: 12px; FONT-FAMILY: "Trebuchet MS", Tahoma,Verdana, sans-serif
+}
+
+
+TABLE TR.fondo TH {
+	background:  url(../images/30hdr_blue.gif) repeat-x
+
+}
+TABLE TR.ocultar  {
+	visibility:hidden;
+	display:none;
+
+}
+
+TABLE TR.desplegar  {
+	visibility: visible;
+	
+
+}
+.fondo {
+background:  url(../images/30hdr_blue.gif) repeat-x
+}
+.tr_hover {background-color: #ffccee}
+
+/* CSS Document */
+
+
+
+
+

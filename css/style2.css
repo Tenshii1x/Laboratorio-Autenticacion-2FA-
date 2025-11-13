@@ -1,0 +1,43 @@
+*					{ margin: 0; padding: 0; }
+
+body				{ font-family: Georgia, serif; 
+					  background: url(../img/plantilla.png) top center no-repeat #c4c4c4; 
+					  color: #3a3a3a;  
+					  border-top-width: 30px; /*Establece el tamaño del borde del mensaje es Volver a la umip.ac.pa*/
+	                  border-top-style: solid;  /* le da la apariencia de negro en la parte superios/* Es el tamaño de todo el texto*/
+					}/* Fin del Body*/
+
+.clear				{ clear: both; }
+
+form				{ width: 406px; margin: 95px auto 0; }
+
+legend				{ display: none; }
+
+fieldset			{ border: 0; }
+
+label				{ width: 115px; text-align: right; float: left; 
+						/* margin-top - margin-right - margin-bottom - margin-left*/
+						margin: 0 10px 0 0; 
+					
+						padding: 9px 0 0 0; font-size: 16px;
+						color: #FFFFFF }
+
+input				{ width: 220px; display: block; padding: 4px; margin: 0 0 10px 0; font-size: 18px;
+					  color: #3a3a3a; font-family: Georgia, serif;}
+input[type=checkbox]{ width: 20px; margin: 0; display: inline-block; }
+					  
+.button				{ background: url(../img/button_bg2.png) repeat-x top center; border: 1px solid #999;
+					  -moz-border-radius: 5px; padding: 5px; color: black; font-weight: bold;
+					  -webkit-border-radius: 5px; font-size: 13px;  width: 70px; }
+.button:hover		{ background: white; color: black; }
+
+/* links */
+a	{ 
+	color: #3a3a3a;
+	background: inherit;
+	text-decoration: none;
+}
+a:hover { 
+	color: #72A545;
+	background: inherit; 	 
+}

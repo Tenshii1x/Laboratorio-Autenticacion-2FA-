@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS intentos_login (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Usuario VARCHAR(255) NOT NULL,
+    ipRemoto VARCHAR(45) NOT NULL,
+    deteccion_anomalia TINYINT(1) NOT NULL,
+    fecha_intento TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

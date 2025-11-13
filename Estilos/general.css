@@ -1,0 +1,143 @@
+/* CSS Document */
+#Guardar {
+	
+	 background:url('img/departamentos.jpg') no-repeat; border:none; width:36px; heigh:36px: 
+	
+
+}
+input, textarea, select {
+	padding:4px;
+	font:bold 13px Arial, Helvetica, sans-serif;
+	border:1px solid #f38002;
+	background:url(../img/bgInput.gif) repeat-x #fafafa;
+}
+
+input:focus, textarea:focus, input:active, textarea:active, .inputFocus{
+	background:url(../img/bgInputF.gif) repeat-x #fafef6;
+	border-color:#c8e503;
+	color:#000;
+}
+input, textarea, select {
+	border:1px solid #8ba3d1;
+}
+.overtext{  /* este es el css que se esta ejecutando. */
+  background:url(../img/bgpInputCeleste.gif) repeat-x #fafef6;
+  border-color:#003a6c;
+  color:#000;
+}
+.outtext{
+    padding:4px;
+	font:bold 13px Arial, Helvetica, sans-serif;
+	/*border:1px solid #f38002;*/
+	background:url(../img/bgInput.gif) repeat-x #fafafa;
+}
+.parte { clear:left; margin-top:5px; min-height:35px; border-bottom:#CCCCCC solid 1px; padding-bottom:10px;  width:400px;margin-left:15px;}
+
+.itemDatos { clear:left; margin-top:5px; min-height:35px; border-bottom:#CCCCCC solid 1px; padding-bottom:10px;  width:450px;margin-left:40px;}
+.itemDatos label { display:block; padding:2px; }
+.itemDatos input { width:200px; }
+.itemDatos checkbox { width:5px; }
+.itemDatos select { width:210px; }
+.itemDatos textarea { width:200px; }
+.itemDatos fieldset { border:none; display:inline; margin-right:8px; padding:4px 0 }
+
+
+.radio {
+	padding:0;
+	border:0;
+	background:none;
+	margin:0;
+	vertical-align:middle;
+	width:auto !important;
+}
+.gen {
+	color: #555;
+	font: 70%/1.5  Verdana, 'Trebuchet MS', arial, sans-serif;
+
+}
+
+.even {
+	BACKGROUND: #ffffff;
+	PADDING-RIGHT: 0.5em; 
+	PADDING-LEFT: 0.5em; 
+	PADDING-BOTTOM: 0.1em; 
+	MARGIN: 0.1em; 
+	/*VERTICAL-ALIGN: top; */
+	VERTICAL-ALIGN: center; */
+
+	PADDING-TOP: 0.1em;
+
+}
+
+.odd {
+	BACKGROUND: #eff1f1;
+	PADDING-RIGHT: 0.5em; 
+	PADDING-LEFT: 0.5em; 
+	PADDING-BOTTOM: 0.1em; 
+	MARGIN: 0.1em; 
+	VERTICAL-ALIGN: center; 
+	PADDING-TOP: 0.1em
+}
+
+
+TABLE TR.odd {
+	BACKGROUND-COLOR: #eff1f1;
+	TEXT-ALIGN: left;
+	PADDING-RIGHT: 5px; 
+	PADDING-LEFT: 5px; 
+	PADDING-BOTTOM: 5px; 
+	PADDING-TOP: 5px; 
+	BORDER-LEFT: #fff 1px solid;
+	BORDER-RIGHT: #fff 0px solid; 
+	BORDER-TOP: #fff 1px solid;
+	BORDER-BOTTOM: #fff 0px solid; 
+}
+
+.fila {
+	BACKGROUND: #064479;
+	PADDING-RIGHT: 0.5em; 
+	PADDING-LEFT: 0.5em; 
+	PADDING-BOTTOM: 0.1em; 
+	MARGIN: 0.1em; 
+	VERTICAL-ALIGN: center; 
+	PADDING-TOP: 0.1em
+}
+
+
+TABLE TR.fila {
+	BACKGROUND-COLOR: #064479;
+	TEXT-ALIGN: left;
+	PADDING-RIGHT: 5px; 
+	PADDING-LEFT: 5px; 
+	PADDING-BOTTOM: 5px; 
+	PADDING-TOP: 5px; 
+	BORDER-LEFT: #fff 1px solid;
+	BORDER-RIGHT: #fff 0px solid; 
+	BORDER-TOP: #fff 1px solid;
+	BORDER-BOTTOM: #fff 0px solid; 
+}
+.genCabecera {
+ 	color: #555; 
+ 	font: 80%/1.5  Verdana, 'Trebuchet MS', arial, sans-serif;
+ 	text-align: Left; 
+}
+.gen2 {
+ 	color: #FFFFFF;
+	font:bold 13px Arial, Helvetica, sans-serif;
+ 	text-align: Left; 
+}
+
+.gen3{
+ 	color:#000;
+	
+ 	text-align:center; 
+	font-size:13px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+}
+.gen4{
+ 	color:#000;
+	
+ 	text-align:center; 
+	font-size:10px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+}

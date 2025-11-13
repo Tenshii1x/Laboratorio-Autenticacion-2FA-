@@ -1,0 +1,43 @@
+
+--
+-- Base de datos: `company_info`
+--
+
+DELIMITER $$
+--
+-- Procedimientos
+--
+DROP PROCEDURE IF EXISTS `insert_user`$$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `insert_user` (IN `_username` VARCHAR(50), `_email` VARCHAR(100), `_pass` VARCHAR(100), `_nombre` VARCHAR(100))   BEGIN
+INSERT INTO users (username, email, pass, nombre) values (_username, _email, _pass, _nombre);
+
+END$$
+
+DELIMITER ;
+
+-- --------------------------------------------------------
+
+DROP TABLE IF EXISTS `intentos_login`;
+CREATE TABLE IF NOT EXISTS `intentos_login` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `usuario` varchar(50) NOT NULL,
+  `ipRemoto` varchar(191) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `deteccionAnomalia` tinyint(1) NOT NULL,
+  PRIMARY KEY (`id`)
+);
+
+
+
+DROP TABLE IF EXISTS `usuarios`;
+CREATE TABLE IF NOT EXISTS `usuarios` (
+  `Nombre` varchar(255) COLLATE utf8mb4_bin NOT NULL,
+  `Apellido` varchar(255) COLLATE utf8mb4_bin NOT NULL,
+  `Usuario` varchar(255) COLLATE utf8mb4_bin NOT NULL,
+  `Correo` varchar(255) COLLATE utf8mb4_bin NOT NULL,
+  `HashMagic` varchar(255) COLLATE utf8mb4_bin NOT NULL,
+  `secret_2fa` varchar(255) COLLATE utf8mb4_bin NOT NULL,
+  `FechaSistema` datetime NOT NULL,
+  `id` int NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+

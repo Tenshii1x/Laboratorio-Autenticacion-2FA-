@@ -1,0 +1,27 @@
+
+
+.forumline {
+	 BORDER-RIGHT: #083370 1px solid;
+	 BORDER-TOP: #083370 2 px solid;
+	 BORDER-LEFT: #083370 1px solid;
+	 BORDER-BOTTOM: #083370 1px solid; 
+}
+
+TD.ROW1 {
+
+PADDING-LEFT: 5 px;
+padding-bottom: 5 px;
+padding-right: 5 px;
+padding-top: 5 px;
+
+
+
+BORDER-TOP: #c 1px solid; 
+BORDER-LEFT: #083370 1px solid; 
+BORDER-BOTTOM: #083370 1px solid; 
+BORDER-RIGHT: #083370 1px solid;
+
+
+
+
+}

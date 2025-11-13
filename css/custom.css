@@ -1,0 +1,29 @@
+.row {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    gap: 30px;
+    padding: 20px 0 20px 80px;
+    min-width: 900px;
+}
+
+.row-item {
+    display: inline-block;
+    float: none;
+    margin: 30px 45px;
+    vertical-align: top;
+}
+
+.col-1_3, .col-1_4 {
+    width: 230px;
+    float: none;
+    flex: 0 0 auto;
+}
+
+.b-service {
+    display: inline-block;
+    margin: 0 auto;
+}

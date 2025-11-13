@@ -1,0 +1,10 @@
+/* CSS Document */
+.myTool{
+		   background-color : #CC0000;
+		   color : #FFFFFF;
+		   border-color:#0033FF;
+		   position: absolute;
+		   text-align:justify;
+		   margin:2px;
+		   padding-left:10px;
+}

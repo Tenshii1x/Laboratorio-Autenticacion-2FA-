@@ -1,0 +1,8 @@
+librería de Jquery.Validate
+screen.css
+cmxform.css 
+style2.css // del Login con imágen
+
+
+
+Para tabs: jquery.tabs.css

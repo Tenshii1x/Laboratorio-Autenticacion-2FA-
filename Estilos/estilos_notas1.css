@@ -1,0 +1,151 @@
+/* CSS Document */
+
+.link_notas01 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0066FF;
+}
+.link_notas01:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0066FF;
+	text-decoration: none;
+}
+.link_notas01:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0066FF;
+	text-decoration: none;
+}
+.link_notas01:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0099CC;
+	text-decoration: none;
+}
+
+
+
+
+.link_notas02 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #E11D00;
+}
+.link_notas02:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #E11D00;
+	text-decoration: underline;
+}
+.link_notas02:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #E11D00;
+	text-decoration: underline;
+}
+.link_notas02:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #F55458;
+	text-decoration: underline;
+}
+
+
+.title_notas01 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #003399;
+}
+
+
+
+.table1
+{
+    border-color: #103463;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.td1
+{
+    border-color: #103463;
+    border-style: solid;
+    margin: 0;
+    padding: 4px;
+    border-width: 1px 1px 1px 1px;
+}
+
+.table2
+{
+    border-color: #103463;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.td2
+{
+    border-color: #103463;
+    border-style: solid;
+    margin: 0;
+    padding: 4px;
+    border-width: 0px 0px 1px 0px;
+}
+
+.td3
+{
+    border-color: #103463;
+    border-style: solid;
+    margin: 0;
+    padding: 4px;
+    border-width: 0px 1px 1px 1px;
+}
+
+.table3
+{
+    border-color: #103463;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.table3 td{
+    border-color: #103463;
+    border-style: solid;
+    margin: 0;
+    padding: 4px;
+    border-width: 0px 1px 1px 1px;
+}
+
+.text_notas01 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0066FF;
+	font-weight:bold;
+}
+
+.col_table1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0F3063;
+}
+
+.col_table2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0F3063;
+}

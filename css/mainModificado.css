@@ -1,0 +1,282 @@
+
+@import 'shortcodes.css';
+@charset "utf-8";
+
+/* CSS Document */
+
+
+.row {
+	margin: 0 auto;
+	text-align: center;
+	line-height: 0;
+	font-size: 0px;
+	letter-spacing: -.31em;
+	word-spacing: -.43em;
+}
+
+.row-item {
+	display: inline-block;
+	margin: 0 20px;
+	vertical-align: top;	
+	text-align: center;
+	line-height: 20px;
+	font-size: 13px;
+	letter-spacing: normal;
+	word-spacing: normal;
+}
+
+.col-1_2 	{ 	width: 493px;	 }
+.col-1_3 	{ 	width: 230px;	 }
+.col-2_3 	{ 	width: 664px;	 }
+.col-1_4 	{ 	width: 230px;	 }
+.col-3_4 	{ 	width: 750px;	 }
+
+.element-wrap {
+	margin-bottom: 30px;
+}
+
+.element-wrap iframe, #map_canvas {
+	width: 100%;
+}
+
+
+.col-1_3 .shadow,
+.col-1_2 .shadow,
+.col-1_4 .shadow,
+.col-3_4 .shadow {
+	margin-bottom: 0;
+}
+
+.col-1_3 .shadow:after,
+.col-1_2 .shadow:after,
+.col-1_4 .shadow:after,
+.col-3_4 .shadow:after {
+	height: 20px;
+	bottom: -23px;
+}
+
+.col-3_4 .shadow:after {
+	height: 30px;
+	bottom: -33px;
+}
+
+/**********************************************/
+
+.element-wrap iframe, #map_canvas {
+	width: 100%;
+}
+
+#map_canvas img {
+	max-width: none !important;
+}
+
+.video-wrap {
+	position: relative;
+	padding-top: 56.25%;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.video-wrap iframe {
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+	top: 0;		left: 0;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+img {
+	max-width: 100%;
+	border: none;
+}
+
+.full-shadow {
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 4px 0 rgba(180,180,180,0.3);
+}
+
+.img-wrap {
+	position: relative;
+	clear: both;
+}
+
+.img-wrap.shadow, .img-wrap .shadow {
+	margin-bottom: 5px;
+}
+
+.img-wrap img {
+	display: block;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+img.no-shadow {
+	box-shadow: none;
+}
+
+.pretty-photo-item {
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+
+.pretty-photo-item:hover .link-overlay {
+	background: rgba(15,16,17,0.5); 
+}
+
+.pretty-photo-item:hover .link-overlay:before {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity:1;
+}
+
+.img-wrap.m-left, img.m-left {
+	float: left;
+	margin: 0 25px 20px 0;
+}
+
+.img-wrap.m-right, img.m-right {
+	float: right;
+	margin: 0 0 20px 25px;
+}
+
+.img-wrap.m-center {
+	display: block;
+	margin: 0 0 16px;
+	text-align: center;
+}
+
+.img-wrap.m-center img {
+	display: block;
+}
+
+.img-wrap.m-center .shadow {
+	display: inline-block;
+}
+
+img.m-center {
+	display: block;
+	margin: 0 auto 20px;
+}
+
+.img-title {
+	position: absolute;
+	bottom: 0;	left: 0;
+				right: 0;
+
+	z-index: 1;
+
+	padding: 20% 20px 16px;
+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(35,38,40,0)), color-stop(100%,rgba(35,38,40,0.6)));
+	background: -webkit-linear-gradient(top,  rgba(35,38,40,0) 0%,rgba(35,38,40,0.6) 100%);
+	background: linear-gradient(to bottom,  rgba(35,38,40,0) 0%,rgba(35,38,40,0.6) 100%);
+
+	text-align: left;
+	color: #ececec;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+
+.shadow,
+.shadow-2 {
+	position: relative;
+	margin-bottom: 43px;
+}
+
+.shadow:after,
+.shadow-2:after {
+	content: '';
+	display: block;
+
+	position: absolute;
+}
+
+.shadow:after {
+	height: 43px;
+	bottom: -46px;	left: 0;
+					right: 0;
+	background: url("../img/shadow.png") no-repeat scroll 0 0 / 100% auto transparent;
+}
+
+.shadow-2:after {
+	height: 55px;
+	bottom: -55px;	left: 0;
+					right: 0;
+	background: url("../img/shadow-2.png") no-repeat scroll 0 0 / 100% auto transparent;
+}
+
+.col-1_3 .shadow,
+.col-1_2 .shadow,
+.col-1_4 .shadow,
+.col-3_4 .shadow {
+	margin-bottom: 0;
+}
+
+.col-1_3 .shadow:after,
+.col-1_2 .shadow:after,
+.col-1_4 .shadow:after,
+.col-3_4 .shadow:after {
+	height: 20px;
+	bottom: -23px;
+}
+
+.col-3_4 .shadow:after {
+	height: 30px;
+	bottom: -33px;
+}
+
+
+strong { color: #313538; }
+
+hr {
+	height: 1px;
+	margin: 20px 0;
+	background-color: #e2e2e2;
+	border: none;
+}
+
+hr.dashed {
+	height: 1px;
+	margin: 20px 0;
+	background: none;
+	border-top: 1px dashed #dee1e2;
+}
+
+hr.striped {
+	height: 14px;
+	margin: 20px 0;
+	background: url(../img/bg-head.jpg) repeat;
+}
+
+hr.shadow-2 {
+	margin: 35px 0;
+	background: none;
+	border-top: none;
+}
+
+/*----------------------------------------*/
+pre {
+	height: auto;
+
+	margin: 0 0 20px;
+	padding: 10px 20px;
+
+	overflow-x: auto;
+
+	background: none repeat scroll 0 0 #F7F7F7;
+	border-radius: 2px;
+	border: 1px solid #E2E2E2;	
+
+	font-family: monospace;
+}
+
+.title {
+	margin-bottom: 20px;
+}
+
+
